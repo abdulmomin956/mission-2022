@@ -1,10 +1,17 @@
 body{
     margin: 0;
     font-family: sans-serif;
+    color: rgb(22, 22, 22);
 }
 section{
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+p{
+    padding-bottom: 10px;
+    line-height: 2em;
 }
 .flexsec{
     display: flex;
@@ -16,10 +23,20 @@ h1{
     
     font-size: 60px;
     font-family: 'Song Myung', serif;
-    font-weight: 400;
+    font-weight: 500;
 }
 h2{
     font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0%;
+}
+h3{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+h4{
+    font-size: 25px;
 }
 .fheading{
     border-left: 3px solid tomato;
@@ -43,7 +60,7 @@ h2{
     font-weight: 700;
 }
 .notetext{
-    margin-top: 5%;
+    margin-top: 7%;
 }
 .sechead{
     text-align: center;
@@ -76,4 +93,32 @@ h2{
 }
 .spacing{
     justify-content: space-between;
+}
+.imagediv{
+    width: 35%;
+}
+.paradiv{
+    width: 55%;
+    margin: auto;
+}
+.imagediv img{
+    width: 100%;
+}
+#rightpara{
+    margin-right: 0;
+}
+#leftpara{
+    margin-left: 0;
+}
+footer{
+    background-color: rgb(22, 22, 22);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.ftext{
+    font-family: 'Molle', cursive;
+}
+#year{
+    color: tomato;
 }
