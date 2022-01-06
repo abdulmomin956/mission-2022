@@ -6,22 +6,74 @@ section{
     margin-left: 10%;
     margin-right: 10%;
 }
-.fsection{
+.flexsec{
     display: flex;
 }
 .half-width{
     width: 50%;
 }
 h1{
-    font-size: 50px;
+    
+    font-size: 60px;
     font-family: 'Song Myung', serif;
     font-weight: 400;
 }
+h2{
+    font-size: 50px;
+}
 .fheading{
     border-left: 3px solid tomato;
-    padding-left: 5px;
+    padding:0 10px;
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+.gold-color{
+    color: #fac000;
+}
+.div1{
+    margin: auto;
+}
+.link-button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.notetext{
+    margin-top: 5%;
+}
+.sechead{
+    text-align: center;
 }
 
 .half-width img{
-    width: 100%;
+    width: 80%;
+}
+.itemss{
+    width: 50%;
+}
+.item1{
+    background-color: rgb(255, 239, 209);
+    border-radius: 20px;
+    padding: 3%;
+    width: 25%;
+    
+}
+.item2{
+    background-color: rgb(255, 208, 255);
+    border-radius: 20px;
+    padding: 3%;
+    width: 25%;
+}
+.item3{
+    background-color: rgb(187, 255, 170);
+    border-radius: 20px;
+    padding: 3%;
+    width: 25%;
+}
+.spacing{
+    justify-content: space-between;
 }
