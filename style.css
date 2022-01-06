@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.fsection{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+h1{
+    font-size: 50px;
+    font-family: 'Song Myung', serif;
+    font-weight: 400;
+}
+.fheading{
+    border-left: 3px solid tomato;
+    padding-left: 5px;
+}
+
+.half-width img{
+    width: 100%;
+}
